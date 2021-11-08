@@ -109,7 +109,7 @@ public class GameActivity extends AppCompatActivity {
                 loseGame();
                 return;
             }
-            images[snakeHead.get(0)][snakeHead.get(1) + 1].setImageResource(R.drawable.snakehead_right);
+            images[snakeHead.get(0)][snakeHead.get(1) + 1].setImageResource(R.drawable.head_right);
             if(snake.size() > 1){
                 images[snakeHead.get(0)][snakeHead.get(1)].setImageResource(R.drawable.snakebody);
             }
@@ -129,7 +129,7 @@ public class GameActivity extends AppCompatActivity {
                 loseGame();
                 return;
             }
-            images[snakeHead.get(0)][snakeHead.get(1) - 1].setImageResource(R.drawable.snakehead_left);
+            images[snakeHead.get(0)][snakeHead.get(1) - 1].setImageResource(R.drawable.head_left);
             if(snake.size() > 1){
                 images[snakeHead.get(0)][snakeHead.get(1)].setImageResource(R.drawable.snakebody);
             }
@@ -150,7 +150,7 @@ public class GameActivity extends AppCompatActivity {
                 loseGame();
                 return;
             }
-            images[snakeHead.get(0) - 1][snakeHead.get(1)].setImageResource(R.drawable.snakehead_up);
+            images[snakeHead.get(0) - 1][snakeHead.get(1)].setImageResource(R.drawable.head_up);
             if(snake.size() > 1){
                 images[snakeHead.get(0)][snakeHead.get(1)].setImageResource(R.drawable.snakebody);
             }
@@ -171,7 +171,7 @@ public class GameActivity extends AppCompatActivity {
                 loseGame();
                 return;
             }
-            images[snakeHead.get(0) + 1][snakeHead.get(1)].setImageResource(R.drawable.snakeheaddown);
+            images[snakeHead.get(0) + 1][snakeHead.get(1)].setImageResource(R.drawable.head_down);
             if(snake.size() > 1){
                 images[snakeHead.get(0)][snakeHead.get(1)].setImageResource(R.drawable.snakebody);
             }
